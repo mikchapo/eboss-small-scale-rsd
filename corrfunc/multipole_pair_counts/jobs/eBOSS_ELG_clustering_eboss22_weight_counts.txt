@@ -1,0 +1,2 @@
+Effective N_gal:0
+Effective N_rand0
