@@ -1,0 +1,46 @@
+output_root: /home/mj3chapm/RSD/fit/output/plots/thesis/afmax_eboss_ao_scales_v3_defence
+ignore_rows: 15000
+z_data: 0.7368961822796876
+paths:
+  - /home/mj3chapm/projects/rrg-wperciva/mj3chapm/RSD/chains/aemulus_fmax/eboss_ao_large_only_v3/eboss_ao_large_only_v3
+  - /home/mj3chapm/projects/rrg-wperciva/mj3chapm/RSD/chains/aemulus_fmax/eboss_ao_rm_small_v3/eboss_ao_rm_small_v3
+  - /home/mj3chapm/projects/rrg-wperciva/mj3chapm/RSD/chains/aemulus_fmax/eboss_ao_rm_large_v3/eboss_ao_rm_large_v3
+  - /home/mj3chapm/projects/rrg-wperciva/mj3chapm/RSD/chains/aemulus_fmax/eboss_ao_tp_v2/eboss_ao_tp_v2
+legend_labels:
+  - $7-60\,h^{-1}$ Mpc
+  - $0.8-60\,h^{-1}$ Mpc
+  - $0.1-7\,h^{-1}$ Mpc
+  - $0.1-60\,h^{-1}$ Mpc
+colour_type: default
+params:
+  - omegam
+  - ombh2
+  - sigma8
+  - H0
+  - ns
+  - logM_sat
+  - alpha
+  - logM_cut
+  - sigma_logM
+  - fmax
+  - v_bc
+  - v_bs
+  - c_vir
+  - f
+  - fsigma8_comp
+params_reduced:
+  - omegam
+  - sigma8
+  - sigma_logM
+  - fmax
+  - v_bc
+  - f
+  - fsigma8_comp
+fsig8_plot: False
+gamma_f_plot: True
+full_tp: False
+reduced_tp: False
+baseline_index: 3
+# reduced_fig_width: 3.175
+reduced_fig_width: 4.75
+fig_width: 24.

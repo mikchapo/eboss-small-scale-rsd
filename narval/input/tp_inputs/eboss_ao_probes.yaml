@@ -1,0 +1,44 @@
+output_root: /home/mj3chapm/RSD/fit/output/plots/thesis/afmax_eboss_ao_probes_v2.1_thesis
+ignore_rows: 20000
+z_data: 0.7368961822796876
+paths:
+  - /home/mj3chapm/projects/rrg-wperciva/mj3chapm/RSD/chains/aemulus_fmax/eboss_ao_mono+wp_v2.1/eboss_ao_mono+wp_v2.1
+  - /home/mj3chapm/projects/rrg-wperciva/mj3chapm/RSD/chains/aemulus_fmax/eboss_ao_mono+quad_v2.1/eboss_ao_mono+quad_v2.1
+  - /home/mj3chapm/projects/rrg-wperciva/mj3chapm/RSD/chains/aemulus_fmax/eboss_ao_tp_v2/eboss_ao_tp_v2
+legend_labels:
+  - $\xi_0+w_p$
+  - $\xi_0+\xi_2$
+  - $\xi_0+\xi_2+w_p$
+colour_type: default
+params:
+  - omegam
+  - ombh2
+  - sigma8
+  - H0
+  - ns
+  - logM_sat
+  - alpha
+  - logM_cut
+  - sigma_logM
+  - fmax
+  - v_bc
+  - v_bs
+  - c_vir
+  - f
+  - fsigma8_comp
+params_reduced:
+  - omegam
+  - sigma8
+  - sigma_logM
+  - fmax
+  - v_bc
+  - f
+  - fsigma8_comp
+fsig8_plot: False
+gamma_f_plot: True
+full_tp: False
+reduced_tp: False
+baseline_index: 2
+reduced_fig_width: 3.175
+# reduced_fig_width: 4.75
+fig_width: 9.5

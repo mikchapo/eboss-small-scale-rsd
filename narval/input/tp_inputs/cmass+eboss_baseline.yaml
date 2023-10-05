@@ -1,0 +1,42 @@
+output_root: /home/mj3chapm/RSD/fit/output/plots/thesis/afmax_cmass+eboss_ao_baseline_v2.1_thesis
+ignore_rows: 20000
+z_data: 0.6775
+paths:
+  - /home/mj3chapm/projects/rrg-wperciva/mj3chapm/RSD/chains/aemulus_fmax/eboss_ao_tp_v2/eboss_ao_tp_v2
+  - /home/mj3chapm/projects/rrg-wperciva/mj3chapm/RSD/chains/aemulus_fmax/cmass+eboss_ao_baseline_v2.1/cmass+eboss_ao_baseline_v2.1
+legend_labels:
+  - eBOSS
+  - CMASS+eBOSS
+colour_type: default
+params:
+  - omegam
+  - ombh2
+  - sigma8
+  - H0
+  - ns
+  - logM_sat
+  - alpha
+  - logM_cut
+  - sigma_logM
+  - fmax
+  - v_bc
+  - v_bs
+  - c_vir
+  - f
+  - fsigma8_comp
+params_reduced:
+  - omegam
+  - sigma8
+  - sigma_logM
+  - fmax
+  - v_bc
+  - f
+  - fsigma8_comp
+fsig8_plot: False
+gamma_f_plot: False
+reduced_tp: True
+full_tp: False
+baseline_index: 0
+reduced_fig_width: 6.375
+# reduced_fig_width: 4.75
+fig_width: 24.

@@ -1,0 +1,42 @@
+output_root: /home/mj3chapm/RSD/fit/output/plots/thesis/afmax_sham_ao_baseline_v2_thesis
+ignore_rows: 20000
+z_data: 0.7
+paths:
+  - /home/mj3chapm/projects/rrg-wperciva/mj3chapm/RSD/chains/aemulus_fmax/mock_tests/uchuu_sham_ao_tp_v2/uchuu_sham_ao_tp_v2
+legend_labels:
+  - Uchuu SHAM Mock
+colour_type: default
+params:
+  - omegam
+  - ombh2
+  - sigma8
+  - H0
+  - ns
+  - logM_sat
+  - alpha
+  - logM_cut
+  - sigma_logM
+  - fmax
+  - v_bc
+  - v_bs
+  - c_vir
+  - f
+  - fsigma8_comp
+params_reduced:
+  - omegam
+  - sigma8
+  - v_bc
+  - f
+  - fsigma8_comp
+fsig8_plot: False
+gamma_f_plot: False
+reduced_tp: True
+full_tp: False
+baseline_index: 0
+reduced_fig_width: 6.375
+# reduced_fig_width: 4.75
+fig_width: 9.5
+markers:
+  omegam: 0.3089
+  sigma8: 0.8159
+  v_bc: 0.

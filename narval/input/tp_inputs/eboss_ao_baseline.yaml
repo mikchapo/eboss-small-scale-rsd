@@ -1,0 +1,45 @@
+output_root: /home/mj3chapm/RSD/fit/output/plots/thesis/afmax_eboss_ao_baseline_v2_thesis
+ignore_rows: 20000
+z_data: 0.7368961822796876
+paths:
+  - /home/mj3chapm/projects/rrg-wperciva/mj3chapm/RSD/chains/aemulus_fmax/eboss_ao_tp_v2/eboss_ao_tp_v2
+legend_labels:
+  - $0.1-60\,h^{-1}$ Mpc
+colour_type: default
+params:
+  - omegam
+  - ombh2
+  - sigma8
+  - H0
+  - ns
+  - logM_sat
+  - alpha
+  - logM_cut
+  - sigma_logM
+  - fmax
+  - v_bc
+  - v_bs
+  - c_vir
+  - f
+  - fsigma8_comp
+params_reduced:
+  - omegam
+  - sigma8
+  - sigma_logM
+  - fmax
+  - v_bc
+  - f
+  - fsigma8_comp
+fsig8_plot: False
+gamma_f_plot: False
+reduced_tp: False
+full_tp: True
+baseline_index: 0
+reduced_fig_width: 4.5
+fig_width: 6.375
+# fig_width: 9.5
+# fig_width: 24.
+param_limits:
+  logM_sat:
+    - 14.1
+    - 15.1
